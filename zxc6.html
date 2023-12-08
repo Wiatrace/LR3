@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+<title>Регистрация</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="margin-left: 10%;" href="zxc.html"><img style="width: 50px; height: 70px;" src="img/koala-svgrepo-com.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav" style="margin-left: 20.5%;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="zxc.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="zxc2.html">Личный кабинет</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="zxc5.html">Добавить объявление</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="zxc6.html">Поиск по объявлениям</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="navbar" >
+          <div class="container-fluid">
+            <form class="d-flex m-auto w-100" role="search">
+              <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+              <button class="btn btn-outline-success" type="submit">Поиск</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </nav>
+      </div>
+    </nav>
+    <div>
+      <nav class="navbar" style="margin-top: 30px;">
+        <div class="container-fluid">
+          <form class="d-flex m-auto w-50" role="search">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+            <button class="btn btn-outline-success" type="submit">Поиск</button>
+          </form>
+        </div>
+      </nav>
+      <div class="">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="margin-left:46%">
+          Фильтры
+        </button>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Редактирование профиля</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <form class="w-50 m-auto p-3">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Имя</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Район</label>
+                        <input type="tel" class="form-control" id="exampleInputPassword1" required>
+                      </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Дата</label>
+                      <input type="date" class="form-control" id="exampleInputPassword1" required>
+                    </div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary">Найти</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-group" style="margin-top: 45px;">
+        <div class="card" style="height: 500px; width: 30%;margin-left: 1% ;  ">
+          <img src="img/174620-pes-datskij_dog-malenkie_sobaki_usynovlyayut_shhenka_besplatno-kot-prinyatie_domashnee_zhivotnoe-1920x1080.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 200px;">
+            <h5 class="card-title">Найден пропавший Той Терьер</h5>
+            <p class="card-text">25.11.2023 был найден Той Терьер, находится по адресу: Пр.Большевиков д.54.</p>
+            <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+          </div>
+        </div>
+        <div class="card" style="height: 500px; width: 30%;margin-left: 1% ; ; ">
+          <img src="img/174163-koshki_sfinksy-datskij_dog-gavana_braun-polosatyj_kot-belyj_kot-1920x1080.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 200px;">
+            <h5 class="card-title">11.11.2023 был найден кот</h5>
+            <p class="card-text">Кот был найден по адресу: Авиаконструкторов 28. Имеет при себе ошейник с кличкой: Мурзик.</p>
+            <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+          </div>
+        </div>
+        <div class="card" style="height: 500px; width: 30%;margin-left: 1% ; ">
+          <img src="img/174645-ryzhaya_lisica-lisa-pesec-psovye-olenenok-1920x1080.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 200px;">
+            <h5 class="card-title">Найдена сбежавшая из зоопарка лиса</h5>
+            <p class="card-text">Лиса уже доставлена обратно в зоопарк и находится в удовлетворительном состоянии.</p>
+            <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+          </div>
+        </div>
+      </div>
+      <div class="card-group" style="margin-top: 50px; margin-bottom: 45px;">
+        <div class="card" style="height: 500px; width: 30%;margin-left: 1% ;">
+          <img src="img/150876-gigantskaya_panda-medved-krasnaya_panda-panda-hishhnik-1920x1080.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 200px;">
+            <h5 class="card-title">Найдена пропавшая из зоопарка красная панда</h5>
+            <p class="card-text">10.11.2023 была найдена пропавшая из зоопарка красная панда.</p>
+            <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+          </div>
+        </div>
+        <div class="card" style="height: 500px; width: 30%;margin-left: 1% ;">
+          <img src="img/149988-olenenok-kabarga-zhivaya_priroda-kot-belohvostyj_olen-1920x1080.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 200px;">
+            <h5 class="card-title">Найден пропавший из зоопарка олень</h5>
+            <p class="card-text">07.11.2023 был найден пропавший из зоопарка олень</p>
+            <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+          </div>
+        </div>
+        <div class="card" style="height: 500px; width: 30%;margin-left: 1% ;">
+          <img src="img/156832-gryzun-ryzhaya_belka-seraya_belka-bakenbardy-olenenok-1920x1080.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 200px;">
+            <h5 class="card-title">Найдена белка</h5>
+            <p class="card-text">03.11.2023 была найдена белка, находится по адресу: Пр.Космонавтов, д.28к4</p>
+            <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+          </div>
+        </div>
+      </div>
+      <div class="card-group" style="margin-top: 50px; margin-bottom: 45px;">
+        <div class="card" style="height: 500px; width: 30%;margin-left: 1% ;">
+          <img src="img/162306-zhiraf-nazemnye_zhivotnye-nauka-priroda-zhirafovye-1920x1080.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 200px;">
+            <h5 class="card-title">Найдена пропавшая из зоопарка красная панда</h5>
+            <p class="card-text">10.11.2023 была найдена пропавшая из зоопарка красная панда.</p>
+            <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+          </div>
+        </div>
+        <div class="card" style="height: 500px; width: 30%;margin-left: 1% ;">
+          <img src="img/157654-2019-slon-slony_i_mamonty-afrikanskij_slon-rabochaya_zhivotnoe-1920x1080.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 200px;">
+            <h5 class="card-title">Найден пропавший из зоопарка олень</h5>
+            <p class="card-text">07.11.2023 был найден пропавший из зоопарка олень</p>
+            <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+          </div>
+        </div>
+        <div class="card" style="height: 500px; width: 30%;margin-left: 1% ;">
+          <img src="img/157011-iberijskaya_rys-koshachih-koshki_malogo_i_srednego_razmera-derevo-bakenbardy-1920x1080.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="height: 200px;">
+            <h5 class="card-title">Найдена белка</h5>
+            <p class="card-text">03.11.2023 была найдена белка, находится по адресу: Пр.Космонавтов, д.28к4</p>
+            <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+          </div>
+        </div>
+      </div>
+      <div class="card m-auto" style="height: 500px; width: 30%;margin-left: 1% ;">
+        <img src="img/149364-obezyana-nazemnye_zhivotnye-prirodnyj_zapovednik-chelovek-zhivaya_priroda-1920x1080.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Заголовок карточки</h5>
+          <p class="card-text">Это более широкая карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Эта карточка имеет даже более длинный контент, чем первая, чтобы показать действие одинаковой высоты.</p>
+          <button type="button" class="btn btn-primary" style="position: absolute; bottom: 5%; left: 43%;" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 25px;">Перейти</button>
+        </div>
+        </div>
+      <nav style="margin-top: 2%;">
+        <ul class="pagination" style="position: absolute; left: 40%;">
+          <li class="page-item"><a class="page-link" href="#">Предыдущая</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Следующая</a></li>
+        </ul>
+      </nav>
+      <footer style="margin-top: 6%;">
+        <div class="footer"><div class="footer_text">Все права защищены.<br>©2023</div></div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </html>
